@@ -1,0 +1,66 @@
+@import url(reset.css);
+
+div, h1, h2, h3, h4, p {margin: 22px 0;
+}
+span   {font-size:30px; 
+        font-weight: 500;
+        color: blue;
+}
+div h4 {color: purple;
+        font-weight: 800;
+        font-size: 16px;
+}
+#horde, #alliance {width: 800px; 
+                  margin: 50px auto; 
+                  font-size: 18px; 
+                  padding: 15px; 
+}
+#horde {color: rgb(192, 37, 37); 
+       border: solid 2px rgb(218, 121, 104); 
+       background-color: rgb(235, 215, 214);}
+
+#alliance {color: rgb(28, 134, 134); 
+             border: solid 2px rgb(74, 184, 199);        
+             background-color: rgb(213, 250, 241);}
+
+#alliance h3 {color: rgb(40, 40, 116); 
+              font-weight: 800;
+              font-size: 21px;
+}
+
+#horde h3 {color: rgb(97, 20, 24);
+           font-weight: 800;
+           font-size: 21px;
+}
+
+h3 p, h2 p {font-size: 19px;}
+
+.description {font-size: 19px;}
+
+#horde h2 {text-align: center;
+            font-weight: 800;
+            font-size: 28px;
+           color: rgb(97, 20, 24);}
+#alliance h2 {text-align: center; 
+              color: rgb(23, 85, 51);
+              font-weight: 800;
+              font-size: 28px;
+  }
+
+#warcraft {width: 1200px; 
+           height: 600px; 
+           margin: 0 auto; 
+           background-color: rgb(232, 249, 255);
+           border: dotted 5px blue; 
+           padding: 50px 50px;
+           overflow: auto scroll;}
+h1 {text-align: center; 
+    color: green; 
+    font-weight: 900;
+    font-size: 36px;}
+
+#warcraft>p {line-height: 30px; 
+             font-size: 20px;
+             color: rgb(140, 103, 165);}
+
+.middle {text-align: center;}
